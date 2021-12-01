@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import './App.css';
 import Main from './Main';
+import Footer from './Footer';
 
 class App extends React.Component {
   render () {
@@ -11,6 +12,7 @@ class App extends React.Component {
           <h6>*dies*</h6>
           <Header />
           <Main />
+          <Footer />
       </div>
     )
   }
