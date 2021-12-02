@@ -1,6 +1,6 @@
 import React from "react";
 import HornedBeast from "./HornedBeast";
-import beastData from './beastData.json';
+import beastData from "./beastData.json";
 
 class Main extends React.Component {
   render() {
@@ -8,8 +8,8 @@ class Main extends React.Component {
       <>
         <p>Horned Beasts coming soon...</p>
         {beastData.map((beast, idx) => (
-        <HornedBeast key={idx} beast={beast} />
-   ))}
+          <HornedBeast key={idx} beast={beast} />
+        ))}
       </>
     );
   }
