@@ -1,17 +1,18 @@
 import React from "react";
+// import beastData from "props";
 
 class HornedBeast extends React.Component {
   render() {
     return (
       <div className="beast">
-        <h2>Beast Title coming soon...</h2>
+        <h2>{this.props.beast.title}</h2>
         <img
-          src="https://via.placeholder.com/150"
-          alt="alt coming soon..."
-          title="title coming soon..."
+          src={this.props.beast.image_url}
+          alt={this.props.beast.description}
+          title={this.props.beast.title}
           style={{ width: "20%" }}
         />
-        <p>Beast Description coming soon...</p>
+        <p>{this.props.beast.description}</p>
       </div>
     );
   }

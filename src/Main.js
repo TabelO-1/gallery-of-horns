@@ -8,7 +8,7 @@ class Main extends React.Component {
       <>
         <p>Horned Beasts coming soon...</p>
         {beastData.map((beast, idx) => (
-        <HornedBeast key={idx} />
+        <HornedBeast key={idx} beast={beast} />
    ))}
       </>
     );
