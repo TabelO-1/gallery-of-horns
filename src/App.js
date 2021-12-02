@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>
-          Hello World!, I am here to <strong>CONQUER</strong> this puny world!
+          Hello, I am here to <strong>CONQUER</strong> this puny world!
         </h1>
         <h6>*dies*</h6>
         <Header />
