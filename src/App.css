@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+.beast {
+  text-align: center;
+  margin: auto;
+  height: 80%;
+  width: 50%;
+}
