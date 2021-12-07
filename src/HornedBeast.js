@@ -22,7 +22,7 @@ class HornedBeast extends React.Component {
               src={this.props.beast.image_url}
               alt={this.props.beast.description}
               title={this.props.beast.title}
-              style={{ width: "20%" }}
+              // style={{ width: "20%" }}
             />
             <Card.Text>{this.props.beast.description}</Card.Text>
             <Card.Text>🔥 = {this.state.favorites}</Card.Text>
