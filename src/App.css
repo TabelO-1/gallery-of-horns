@@ -1,3 +1,29 @@
 .App {
   text-align: center;
+  font-style: italic;
+  color: #f675ff;
+  background-color: azure;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+  border: 30px solid #d24fdb;
+}
+.beast {
+  border: 5px solid #4b8f17;
+  color: #f675ff;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  font-weight: bold;
+  height: 425px;
+  padding: 20px;
+  margin: 15px;
+}
+.beastImg {
+  border: 5px solid orange;
+  border-radius: 25px;
+}
+.header {
+  font-size: 75px;
+}
+.beastDescription {
+  margin-top: 15px;
 }
