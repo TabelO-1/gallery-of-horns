@@ -8,9 +8,9 @@
   border: 30px solid #4522FA;
 }
 .beast {
-  /* border: 5px solid #FA3511; */
+  border: 3px solid #5CD1FF;
   color: #228B22;
-  /* background-color: #f675ff; */
+  background-color: #C9F9FF;
   border-radius: 25px;
   font-weight: bold;
   height: 425px;
@@ -18,7 +18,7 @@
   margin: 15px;
 }
 .beastImg {
-  /* border: 5px solid #FA3511; */
+  border: 2px solid #5CD1FF;
   border-radius: 25px;
 }
 .header {
