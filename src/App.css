@@ -1,16 +1,16 @@
 .App {
   text-align: center;
   font-style: italic;
-  color: #f675ff;
-  background-color: azure;
-  font-family: "Times New Roman", Times, serif;
+  color: #000080;
+  background-color: whitesmoke;
+  font-family: fantasy;
   padding: 30px;
-  border: 30px solid #d24fdb;
+  border: 30px solid #4522FA;
 }
 .beast {
-  border: 5px solid #4b8f17;
-  color: #f675ff;
-  background-color: antiquewhite;
+  /* border: 5px solid #FA3511; */
+  color: #228B22;
+  /* background-color: #f675ff; */
   border-radius: 25px;
   font-weight: bold;
   height: 425px;
@@ -18,7 +18,7 @@
   margin: 15px;
 }
 .beastImg {
-  border: 5px solid orange;
+  /* border: 5px solid #FA3511; */
   border-radius: 25px;
 }
 .header {

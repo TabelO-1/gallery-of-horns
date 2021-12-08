@@ -28,7 +28,9 @@ class HornedBeast extends React.Component {
               title={this.props.beast.title}
               className="beastImg"
             />
-            <Card.Text className="beastDescription">{this.props.beast.description}</Card.Text>
+            <Card.Text className="beastDescription">
+              {this.props.beast.description}
+            </Card.Text>
             <Card.Text>🔥 = {this.state.favorites}</Card.Text>
           </Card.Body>
         </Card>
