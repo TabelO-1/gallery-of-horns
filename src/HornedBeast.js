@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
           <Card.Text className="beastDescription">
             {this.props.beast.description}
           </Card.Text>
-          <Card.Text>🔥 = {this.state.favorites}</Card.Text>
+          <Card.Text>∞ = {this.state.favorites}</Card.Text>
         </Card.Body>
       </Card>
     );
