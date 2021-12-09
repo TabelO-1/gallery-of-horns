@@ -8,14 +8,14 @@
   border: 30px solid #4522FA;
 }
 .beast {
+  text-align: center;
   border: 3px solid #5CD1FF;
   color: #228B22;
   background-color: #C9F9FF;
   border-radius: 25px;
   font-weight: bold;
-  height: 425px;
   padding: 20px;
-  margin: 15px;
+  margin: 5px;
 }
 .beastImg {
   border: 2px solid #5CD1FF;

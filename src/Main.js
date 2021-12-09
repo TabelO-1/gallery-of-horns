@@ -8,7 +8,7 @@ class Main extends React.Component {
   render() {
     return (
       <Container>
-        <Row xs={1} md={2} lg={3} xl={4}>
+        <Row xs={1} sm={2} md={3} lg={4} xl={5}>
           {beastData.map((beast, idx) => (
             <HornedBeast key={idx} beast={beast} />
           ))}

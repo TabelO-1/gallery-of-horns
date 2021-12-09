@@ -13,28 +13,26 @@ class HornedBeast extends React.Component {
   };
   render() {
     return (
-      <div>
-        <Card
-          className="beast"
-          style={{ width: "18rem" }}
-          onClick={this.addFavorites}
-        >
-          <Card.Body>
-            <Card.Title>{this.props.beast.title}</Card.Title>
-            <Card.Img
-              variant="top"
-              src={this.props.beast.image_url}
-              alt={this.props.beast.description}
-              title={this.props.beast.title}
-              className="beastImg"
-            />
-            <Card.Text className="beastDescription">
-              {this.props.beast.description}
-            </Card.Text>
-            <Card.Text>🔥 = {this.state.favorites}</Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
+      <Card
+        className="beast"
+        style={{ width: "18rem" }}
+        onClick={this.addFavorites}
+      >
+        <Card.Body>
+          <Card.Title>{this.props.beast.title}</Card.Title>
+          <Card.Img
+            variant="top"
+            src={this.props.beast.image_url}
+            alt={this.props.beast.description}
+            title={this.props.beast.title}
+            className="beastImg"
+          />
+          <Card.Text className="beastDescription">
+            {this.props.beast.description}
+          </Card.Text>
+          <Card.Text>🔥 = {this.state.favorites}</Card.Text>
+        </Card.Body>
+      </Card>
     );
   }
 }
