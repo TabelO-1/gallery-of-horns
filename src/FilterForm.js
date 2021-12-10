@@ -9,11 +9,11 @@ class FilterForm extends React.Component {
           <Form.Label for="numOfHorns">Filter by Horns</Form.Label>
           <br/>
           <Form.Select className="formSelect" name="numOfHorns">
-            <option value="0">ALL THE HORNS!</option>
-            <option value="1">One Horn</option>
-            <option value="2">Two Horns</option>
-            <option value="3">Three Horns</option>
-            <option value="4">More Horns Than I Can Count!</option>
+            <option value="0">Complete Gallery</option>
+            <option value="1">One-Horned Gallery</option>
+            <option value="2">Two-Horned Gallery</option>
+            <option value="3">Three-Horned Gallery</option>
+            <option value="10">Insane amounts of horns Gallery</option>
           </Form.Select>
         </Form>
       </>
