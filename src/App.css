@@ -27,3 +27,13 @@
 .beastDescription {
   margin-top: 15px;
 }
+.form {
+  text-align: center;
+  border: 3px solid #5CD1FF;
+  color: #228B22;
+  background-color: #C9F9FF;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 5px;
+}
