@@ -5,9 +5,9 @@ class FilterForm extends React.Component {
   render() {
     return (
       <>
-        <Form className="form">
+        <Form className="styling" id="form">
           <Form.Label for="numOfHorns">Filter by Horns</Form.Label>
-          <br/>
+          <br />
           <Form.Select className="formSelect" name="numOfHorns">
             <option value="0">Complete Gallery</option>
             <option value="1">One-Horned Gallery</option>
