@@ -8,8 +8,8 @@ class FilterForm extends React.Component {
     let gallery = beastData;
     if (numOfHorns) {
       gallery = beastData.filter((beast) => beast.horns === numOfHorns);
-      this.props.updateGallery(gallery);
     }
+    this.props.updateGallery(gallery);
   };
   render() {
     return (
