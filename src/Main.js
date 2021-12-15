@@ -6,12 +6,22 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      gallery: beastData,
+    };
+  }
+
+  updateGallery = (filteredGallery) => {
+    this.setState({ gallery: filteredGallery });
+  };
   render() {
     return (
       <Container>
-        <FilterForm />
+        <FilterForm updateGallery={this.updateGallery} />
         <Row xs={1} sm={2} md={3} lg={4} xl={5}>
-          {beastData.map((beast, idx) => (
+          {this.state.gallery.map((beast, idx) => (
             <HornedBeast key={idx} beast={beast} />
           ))}
         </Row>
