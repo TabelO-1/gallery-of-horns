@@ -16,7 +16,7 @@ class HornedBeast extends React.Component {
       <Card
         className="styling"
         id="beast"
-        style={{ width: "18rem" }}
+        style={{ width: "17rem" }}
         onClick={this.addFavorites}
       >
         <Card.Body>
