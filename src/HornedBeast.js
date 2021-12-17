@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
           />
           <Card.Text className="beastDescription">
             {this.props.beast.description}.{" "}
-            {this.props.beast.horns == 1
+            {this.props.beast.horns === 1
               ? `It has ${this.props.beast.horns} horn.`
               : `It has ${this.props.beast.horns} horns.`}
           </Card.Text>
